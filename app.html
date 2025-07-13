@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>DAREX365 App Download</title>
   <style>
     body {
@@ -23,6 +23,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
     }
     img.logo {
       max-width: 180px;
@@ -50,6 +51,13 @@
       text-decoration: none;
       display: inline-block;
       font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .qr {
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 20px;
     }
     .footer {
       margin-top: 60px;
@@ -63,6 +71,13 @@
     <img src="darex365-logo.png" alt="DAREX365 Logo" class="logo" />
     <h1>DAREX365™ APP IS LIVE</h1>
     <p>Your tactical consulting companion is now mobile. Access the SA365™ survival tool — right from your phone. No download needed.</p>
+    
+    <!-- QR Code Section -->
+    <div class="qr">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://sa365.glide.page/" alt="QR Code to App" />
+    </div>
+    
+    <!-- Button Link -->
     <a href="https://sa365.glide.page/" target="_blank" class="button">Access the App</a>
 
     <div class="footer">
